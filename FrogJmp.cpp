@@ -5,5 +5,5 @@ int solution(int X, int Y, int D) {
     
     double jumps = (double)(Y-X) / D;
     
-    return ceil(jumps);
+    return ceil(jumps); // rounds upward
 }
